@@ -1,1 +1,3 @@
-this is the comment on the 407
+First time: Done on July 13. Finished problems: 34.
+------------------------------------------------
+Use hashset

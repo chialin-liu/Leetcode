@@ -1,3 +1,5 @@
+First time: Done on July 14, problems:36
+------------------------------------
 1. test case = "abcde" , OUT=1
 2. if use recursive-> stack over flow, and exceed time limit 
 3. use DP, to store the values, 

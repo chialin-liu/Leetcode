@@ -1,0 +1,7 @@
+1. test case = "abcde" , OUT=1
+2. if use recursive-> stack over flow, and exceed time limit 
+3. use DP, to store the values, 
+4. watch the youtube:https://www.youtube.com/watch?time_continue=272&v=TLaGwTnd3HY
+5. mind the empty string should return 0; Leetcode did not test this solution
+
+

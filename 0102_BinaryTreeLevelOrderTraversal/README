@@ -1,0 +1,5 @@
+Second time , Done on July 16, problems:38
+-------------------------------
+mind TreeNode.left or TreeNode.right are not null if we desire to add them into queue or traversal
+2. if root == [], return [], do not hardcord return null, return empty results
+

@@ -60,6 +60,6 @@ public class Solution {
     grid[3][3]='1';
     grid[3][4]='1';
     char [][]xx=new char[4][5];
-    System.out.println(sol.numIslands(xx));
+    System.out.println(sol.numIslands(grid));
   }
 }

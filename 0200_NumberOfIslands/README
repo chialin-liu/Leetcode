@@ -1,0 +1,6 @@
+First time done on July 16, problems=38
+-----------------------------
+1. in DFS, recursive condition misses "grid[i][j]=='0'", then return
+2. test_case = [ ], runtime error=> col = grid[0].length
+3. watch video : https://www.youtube.com/watch?v=XSmgFKe-XYU 
+

@@ -1,0 +1,6 @@
+see the solution on cspiration Aug 7
+1. root == null, return ""
+2. data == "". return null
+3. stringbuilder, append
+4. split
+5. deserialize

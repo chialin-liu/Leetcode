@@ -1,0 +1,2 @@
+Lintcode's datastructure UndirectedGraphNode is different from Leetcode's Node
+Therefore, map.put(cur, new Node(cur.val, new ArrayList<Node>())); in Leetcode is must

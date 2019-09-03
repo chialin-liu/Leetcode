@@ -31,7 +31,12 @@ public class Solution {
 
   public static void main(String[] args) {
     Solution sol = new Solution();
-    int length = sol.lengthOfLongestSubstring("abcabcd");
-    System.out.println(length);
+    String str = "  -42";
+    str = str.trim();
+    char first = str.charAt(0);
+    System.out.println(first);
+//    int length = sol.lengthOfLongestSubstring("abcabcd");
+//
+//    System.out.println(length);
   }
 }

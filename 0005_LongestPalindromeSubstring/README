@@ -5,3 +5,8 @@ First time on July 14, problems:37
 3. use substring to print partial string
 4. test_case:"ac", print a
 
+## DP solution needs to be reviewed
+## spanning solution
+1. odd/even array number in for loop, in helper function, we first define the bounday left >= 0 && right < length 
+if char(left) == char(right), two pointers expand
+and then new string = substring(left + 1, right), because the condition on the left is failed, needs to smaller 

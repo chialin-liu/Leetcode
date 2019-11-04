@@ -24,23 +24,43 @@ This method will TLE
         }
         return max;
     }
-    
+## code more preferred
+    public int lengthOfLongestSubstring(String s) {
+        if(s == null || s.length() == 0) return 0;
+        int max = 0;
+        int left = 0;
+        int right = 0;
+        Set<Character> set = new HashSet<>();
+        while(left < s.length()){
+            while(right < s.length() && !set.contains(s.charAt(right))){
+                set.add(s.charAt(right));
+                max = Math.max(max, set.size());
+                right++;
+                
+            }
+            set.remove(s.charAt(left));
+            left++;
+        }
+        return max;
+    }                                            
 # Array
 ## Faster than hashset
 ## " " will run time error, space input will fail
-public int lengthOfLongestSubstring(String s) {
-        int []arr = new int [128];
+    public int lengthOfLongestSubstring(String s) {
         if(s == null || s.length() == 0) return 0;
+        int max = 0; 
+        int []arr = new int [128];
+        int left = 0;
         int right = 0;
-        int res = 0;
-        for(int left = 0; left < s.length(); left++){
+        while(left < s.length()){
             while(right < s.length() && arr[s.charAt(right)] == 0){
                 arr[s.charAt(right)] = 1;
-                res = Math.max(res, right - left + 1 );               
+                max = Math.max(max, right - left + 1);
                 right++;
             }
             arr[s.charAt(left)] = 0;
+            left++;
         }
-        return res;
+        return max;
     }
     

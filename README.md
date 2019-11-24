@@ -1,6 +1,6 @@
 # Rotation/Reverse
 1. please be careful of the rotation times K might exceed the totalLength, therefore, K should be modulo totalLength.
-2. 
+2. [151](https://leetcode.com/problems/reverse-words-in-a-string/) [61](https://leetcode.com/problems/rotate-list/)
 
 ### LC-61: 
 1. connect the tail node to the head; to form a loop

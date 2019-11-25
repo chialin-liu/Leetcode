@@ -8,7 +8,7 @@
 [7](https://leetcode.com/problems/reverse-integer); [8](https://leetcode.com/problems/string-to-integer-atoi)
 
 # Plus one
-1. [66](https://leetcode.com/problems/plus-one/); [67](https://leetcode.com/problems/add-binary/)
+1. [66](https://leetcode.com/problems/plus-one/); [67](https://leetcode.com/problems/add-binary/);[369](https://leetcode.com/problems/plus-one-linked-list/);[989](https://leetcode.com/problems/add-to-array-form-of-integer/)
 
 
 ### LC-4<https://leetcode.com/problems/median-of-two-sorted-arrays/>
@@ -41,6 +41,8 @@
 1. bit manipulation
 ### LC-328 <https://leetcode.com/problems/odd-even-linked-list/>
 1. be carefull of the while loop case
+### LC-369<https://leetcode.com/problems/plus-one-linked-list/>
+1. be careful of reverse(head) cannot be called twice
 ### LC-725 <https://leetcode.com/problems/split-linked-list-in-parts/>
 1. do not miss to cut down the tail to null; if not doing this step, you will have duplicate numbers
 2. in while loop, stop at the tail node

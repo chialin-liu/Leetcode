@@ -10,6 +10,8 @@
 # Plus one
 1. [66](https://leetcode.com/problems/plus-one/); [67](https://leetcode.com/problems/add-binary/);[369](https://leetcode.com/problems/plus-one-linked-list/);[989](https://leetcode.com/problems/add-to-array-form-of-integer/)
 
+# Long type necessary?
+*[633](https://leetcode.com/problems/sum-of-square-numbers/)
 
 ### LC-4<https://leetcode.com/problems/median-of-two-sorted-arrays/>
 1. [Teaching](https://www.youtube.com/watch?time_continue=1405&v=LPFhl65R7ww&feature=emb_logo)

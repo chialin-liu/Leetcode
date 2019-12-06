@@ -8,6 +8,10 @@
 int x = 100;
 System.out.println(Integer.toBinaryString(x));
 ```
+2. use 0b to format integer
+```
+int binaryInt = 0b101;
+```
 # OverFlow Handle
 [7](https://leetcode.com/problems/reverse-integer); [8](https://leetcode.com/problems/string-to-integer-atoi); [564](https://leetcode.com/problems/find-the-closest-palindrome/)
 

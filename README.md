@@ -3,6 +3,7 @@
 2. [151](https://leetcode.com/problems/reverse-words-in-a-string/); [61](https://leetcode.com/problems/rotate-list/);[189](https://leetcode.com/problems/rotate-array/); [186](https://leetcode.com/problems/reverse-words-in-a-string-ii/); [190](https://leetcode.com/problems/reverse-bits/); [7](https://leetcode.com/problems/reverse-integer/)
 # Bit manipulation
 [190](https://leetcode.com/problems/reverse-bits/)
+[393](https://leetcode.com/problems/utf-8-validation/)
 1. integer to binary number: 
 ```
 int x = 100;
@@ -11,6 +12,25 @@ System.out.println(Integer.toBinaryString(x));
 2. use 0b to format integer
 ```
 int binaryInt = 0b101;
+```
+# Map/Set operation
+1. in set
+```
+map.entrySet().iterator.next().getValue()
+```
+# indexOf
+```
+public int indexOf(int ch )
+
+public int indexOf(int ch, int fromIndex)
+
+int indexOf(String str)
+
+int indexOf(String str, int fromIndex)
+```
+# Arrays.API
+```
+Arrays.sort(int []array, int fromIndex, int toIndex)
 ```
 # OverFlow Handle
 [7](https://leetcode.com/problems/reverse-integer); [8](https://leetcode.com/problems/string-to-integer-atoi); [564](https://leetcode.com/problems/find-the-closest-palindrome/)

@@ -1,3 +1,47 @@
+# BST Predecessor/Successor
+```
+public class InorderSuccessorPredecessor {
+	static int successor, predecessor;
+
+	public void successorPredecessor(Node root, int val) {
+		if (root != null) {
+			if (root.data == val) {
+				// go to the right most element in the left subtree, it will the
+				// predecessor.
+				if (root.left != null) {
+					Node t = root.left;
+					while (t.right != null) {
+						t = t.right;
+					}
+					predecessor = t.data;
+				}
+				if (root.right != null) {
+					// go to the left most element in the right subtree, it will
+					// the successor.
+					Node t = root.right;
+					while (t.left != null) {
+						t = t.left;
+					}
+					successor = t.data;
+				}
+			} else if (root.data > val) {
+				// we make the root as successor because we might have a
+				// situation when value matches with the root, it wont have
+				// right subtree to find the successor, in that case we need
+				// parent to be the successor
+				successor = root.data;
+				successorPredecessor(root.left, val);
+			} else if (root.data < val) {
+				// we make the root as predecessor because we might have a
+				// situation when value matches with the root, it wont have
+				// left subtree to find the predecessor, in that case we need
+				// parent to be the predecessor.
+				predecessor = root.data;
+				successorPredecessor(root.right, val);
+			}
+		}
+	}
+```
 # Rotation/Reverse
 1. please be careful of the rotation times K might exceed the totalLength, therefore, K should be modulo totalLength.
 2. [151](https://leetcode.com/problems/reverse-words-in-a-string/); [61](https://leetcode.com/problems/rotate-list/);[189](https://leetcode.com/problems/rotate-array/); [186](https://leetcode.com/problems/reverse-words-in-a-string-ii/); [190](https://leetcode.com/problems/reverse-bits/); [7](https://leetcode.com/problems/reverse-integer/)
@@ -31,7 +75,11 @@ int indexOf(String str, int fromIndex)
 # Arrays.API
 ```
 Arrays.sort(int []array, int fromIndex, int toIndex)
+toIndex is exclusive!!!
 ```
+# Rewrite Comparator
+[937](https://leetcode.com/problems/reorder-data-in-log-files/)
+
 # OverFlow Handle
 [7](https://leetcode.com/problems/reverse-integer); [8](https://leetcode.com/problems/string-to-integer-atoi); [564](https://leetcode.com/problems/find-the-closest-palindrome/)
 

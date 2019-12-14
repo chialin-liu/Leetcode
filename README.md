@@ -92,6 +92,14 @@ toIndex is exclusive!!!
 # Palindrome
 [214](https://leetcode.com/problems/shortest-palindrome/)
 
+# TreeMap/TreeSet 
+[363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+
+# StringBuilder api
+```
+deleteCharAt(int index)
+```
+-----------------------------------------------------------------------------------------------------------------
 ### LC-4<https://leetcode.com/problems/median-of-two-sorted-arrays/>
 1. [Teaching](https://www.youtube.com/watch?time_continue=1405&v=LPFhl65R7ww&feature=emb_logo)
 ### LC-7<https://leetcode.com/problems/reverse-integer/>

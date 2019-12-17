@@ -116,7 +116,8 @@ toIndex is exclusive!!!
 ```
 deleteCharAt(int index)
 ```
-
+# Sliding Window Related
+[159](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/discuss/49708/Sliding-Window-algorithm-template-to-solve-all-the-Leetcode-substring-search-problem)
 -----------------------------------------------------------------------------------------------------------------
 ### LC-4<https://leetcode.com/problems/median-of-two-sorted-arrays/>
 1. [Teaching](https://www.youtube.com/watch?time_continue=1405&v=LPFhl65R7ww&feature=emb_logo)

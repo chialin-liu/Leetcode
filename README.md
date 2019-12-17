@@ -57,10 +57,27 @@ System.out.println(Integer.toBinaryString(x));
 ```
 int binaryInt = 0b101;
 ```
+# 求Y軸對稱
+[356](https://leetcode.com/problems/line-reflection/)
+1. sum = max + min
+2. sum - 某個X = 對稱後的Ｘ
+# GCD
+```
+private int generateGCD(int a,int b){
+    
+        	if (b==0) return a;
+        	else return generateGCD(b,a%b);
+        	
+        }
+```
 # Map/Set operation
 1. in set
 ```
 map.entrySet().iterator.next().getValue()
+```
+2. iterate Key
+```
+map.keySet()
 ```
 # indexOf
 ```
@@ -99,6 +116,7 @@ toIndex is exclusive!!!
 ```
 deleteCharAt(int index)
 ```
+
 -----------------------------------------------------------------------------------------------------------------
 ### LC-4<https://leetcode.com/problems/median-of-two-sorted-arrays/>
 1. [Teaching](https://www.youtube.com/watch?time_continue=1405&v=LPFhl65R7ww&feature=emb_logo)

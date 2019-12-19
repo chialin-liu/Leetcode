@@ -57,6 +57,11 @@ System.out.println(Integer.toBinaryString(x));
 ```
 int binaryInt = 0b101;
 ```
+# MAX/MIN Integer
+```
+public static final int	MAX_VALUE	2147483647
+public static final int	MIN_VALUE	-2147483648
+```
 # 求Y軸對稱
 [356](https://leetcode.com/problems/line-reflection/)
 1. sum = max + min
@@ -94,6 +99,14 @@ int indexOf(String str, int fromIndex)
 Arrays.sort(int []array, int fromIndex, int toIndex)
 toIndex is exclusive!!!
 ```
+# Mountain Related
+1.判斷 nums[mid] < nums[mid + 1]
+# Majority Element(背
+[169](https://leetcode.com/problems/majority-element/)
+[229](https://leetcode.com/problems/majority-element-ii/)
+# Split Regex
+1. [165](https://leetcode.com/problems/compare-version-numbers/) split("\\."); instead of split(".");
+
 # Rewrite Comparator
 [937](https://leetcode.com/problems/reorder-data-in-log-files/)
 

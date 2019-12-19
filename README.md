@@ -99,6 +99,12 @@ int indexOf(String str, int fromIndex)
 Arrays.sort(int []array, int fromIndex, int toIndex)
 toIndex is exclusive!!!
 ```
+# Queue API
+[339](https://leetcode.com/problems/nested-list-weight-sum/)
+```
+Queue<T> queue = new LinkedList<>(list);
+queue.addAll(list);
+```
 # Mountain Related
 1.判斷 nums[mid] < nums[mid + 1]
 

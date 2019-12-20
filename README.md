@@ -140,6 +140,9 @@ deleteCharAt(int index)
 ```
 # Sliding Window Related
 [159](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/discuss/49708/Sliding-Window-algorithm-template-to-solve-all-the-Leetcode-substring-search-problem)
+567 & 438 同個寫法
+[567](https://leetcode.com/problems/permutation-in-string/) 
+[438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) 
 -----------------------------------------------------------------------------------------------------------------
 ### LC-4<https://leetcode.com/problems/median-of-two-sorted-arrays/>
 1. [Teaching](https://www.youtube.com/watch?time_continue=1405&v=LPFhl65R7ww&feature=emb_logo)

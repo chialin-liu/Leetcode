@@ -130,6 +130,15 @@ queue.addAll(list);
 
 # Palindrome
 [214](https://leetcode.com/problems/shortest-palindrome/)
+# Subarray
+1. use hashmap
+[325](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+[209](https://leetcode.com/problems/minimum-size-subarray-sum/)
+[713](https://leetcode.com/problems/subarray-product-less-than-k/)
+[523](https://leetcode.com/problems/continuous-subarray-sum/)
+[974](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
+[525](https://leetcode.com/problems/contiguous-array/)
+
 
 # TreeMap/TreeSet 
 [363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
@@ -143,6 +152,8 @@ deleteCharAt(int index)
 567 & 438 同個寫法
 [567](https://leetcode.com/problems/permutation-in-string/) 
 [438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) 
+[76](https://leetcode.com/problems/minimum-window-substring/)
+
 -----------------------------------------------------------------------------------------------------------------
 ### LC-4<https://leetcode.com/problems/median-of-two-sorted-arrays/>
 1. [Teaching](https://www.youtube.com/watch?time_continue=1405&v=LPFhl65R7ww&feature=emb_logo)

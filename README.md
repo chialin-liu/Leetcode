@@ -42,6 +42,11 @@ public class InorderSuccessorPredecessor {
 		}
 	}
 ```
+# Deque
+[239](https://leetcode.com/problems/sliding-window-maximum/)
+# Math
+1. Math.sqrt return double type
+2. [319](https://leetcode.com/problems/bulb-switcher/) 根本扯
 # Rotation/Reverse
 1. please be careful of the rotation times K might exceed the totalLength, therefore, K should be modulo totalLength.
 2. [151](https://leetcode.com/problems/reverse-words-in-a-string/); [61](https://leetcode.com/problems/rotate-list/);[189](https://leetcode.com/problems/rotate-array/); [186](https://leetcode.com/problems/reverse-words-in-a-string-ii/); [190](https://leetcode.com/problems/reverse-bits/); [7](https://leetcode.com/problems/reverse-integer/)

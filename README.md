@@ -80,6 +80,12 @@ private int generateGCD(int a,int b){
         	
         }
 ```
+# Special String API
+```
+public boolean startsWith(String prefix, int toffset)
+or
+public boolean startsWith(String prefix)
+```
 # Map/Set operation
 1. in set
 ```

@@ -42,6 +42,9 @@ public class InorderSuccessorPredecessor {
 		}
 	}
 ```
+# Collections.sort用法
+1. 用在List<Integer>
+2. 用在String
 # Deque
 [239](https://leetcode.com/problems/sliding-window-maximum/)
 # Math

@@ -135,6 +135,18 @@ Arrays.sort(cal, Collections.reverseOrder());
             }
         });	
 ```
+# compare double
+```
+Leetcode 857.	
+        Arrays.sort(workers, new Comparator<double []>(){
+            public int compare(double []a, double []b){
+                return Double.compare(a[0], b[0]);
+            }
+            
+        });	
+```	
+
+
 # Mountain Related
 1.判斷 nums[mid] < nums[mid + 1]
 

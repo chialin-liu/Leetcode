@@ -145,7 +145,10 @@ Leetcode 857.
             
         });	
 ```	
-
+# String API
+```
+String.replaceAll(regex, replacement)
+```
 
 # Mountain Related
 1.判斷 nums[mid] < nums[mid + 1]

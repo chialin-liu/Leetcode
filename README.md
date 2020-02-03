@@ -123,6 +123,18 @@ toIndex is exclusive!!!
 Queue<T> queue = new LinkedList<>(list);
 queue.addAll(list);
 ```
+# Decending order using Arrays.sort
+```
+Arrays.sort(cal, Collections.reverseOrder());	
+```
+```
+	This is not allowed
+        Arrays.sort(cal, new Comparator<Integer>(){
+            public int compare(Integer a, Integer b){
+                return b - a;
+            }
+        });	
+```
 # Mountain Related
 1.判斷 nums[mid] < nums[mid + 1]
 

@@ -86,6 +86,7 @@ private int generateGCD(int a,int b){
 # StringBuilder API
 ```
 sb.setCharAt(int index, char c)
+sb.deleteCharAt(int index)
 ```
 # Special String API
 ```

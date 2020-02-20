@@ -134,7 +134,16 @@ Arrays.sort(cal, Collections.reverseOrder());
             public int compare(Integer a, Integer b){
                 return b - a;
             }
-        });	
+        });
+	
+	This is allowed
+	Integer []arr = new Integer[]{5,3,1,6,9,4,2};
+        Arrays.sort(arr, new Comparator<>(){
+           public int compare(Integer a, Integer b){
+           return b.compareTo(a);
+           return b - a;
+        }
+        });
 ```
 # TreeSet decending order
 ```

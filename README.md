@@ -170,6 +170,12 @@ Leetcode 857.
 String.replaceAll(regex, replacement)
 ```
 
+# Reverse Order
+```
+PriorityQueue<Integer> neheap = new PriorityQueue<>(Collections.reverseOrder());
+```
+	
+
 # Mountain Related
 1.判斷 nums[mid] < nums[mid + 1]
 

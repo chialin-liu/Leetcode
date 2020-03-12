@@ -1,3 +1,13 @@
+# Path compression in union find
+```
+    private int find(int x) {
+        if (parent[x] == x) {
+            return parent[x];
+        }
+        parent[x] = find(parent[x]); // path compression
+        return parent[x];
+    }
+```
 # BST Predecessor/Successor
 ```
 public class InorderSuccessorPredecessor {

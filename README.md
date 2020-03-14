@@ -1,3 +1,9 @@
+# integer overflow
+```
+int mid 
+long prod = mid * mid仍會overflow
+要改成 long mid宣告才行
+```
 # Path compression in union find
 ```
     private int find(int x) {
